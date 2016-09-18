@@ -1,0 +1,24 @@
+{
+  "name": "express-readbody",
+  "version": "1.0.0",
+  "description": "Convenience function for easier reading of request data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janis-kra/express-readbody.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "convenience"
+  ],
+  "author": "Janis Krasemann <krasemann.janis@gmail.com> (http://www.github.com/janis-kra)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janis-kra/express-readbody/issues"
+  },
+  "homepage": "https://github.com/janis-kra/express-readbody#readme"
+}
