@@ -7,6 +7,6 @@ module.exports = function readBody (req) {
     });
 
     req.on('end', () => resolve(body));
-    req.on('error', (e) => reject(e));
+    req.on('error', e => reject(e));
   });
 };

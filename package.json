@@ -20,5 +20,16 @@
   "bugs": {
     "url": "https://github.com/janis-kra/express-readbody/issues"
   },
-  "homepage": "https://github.com/janis-kra/express-readbody#readme"
+  "homepage": "https://github.com/janis-kra/express-readbody#readme",
+  "devDpendencies": {
+    "eslint": "^3.13.1",
+    "eslint-config-janiskra": "^1.9.1"
+  },
+  "engines": {
+    "node": ">6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.13.1",
+    "eslint-config-janiskra": "^1.9.1"
+  }
 }
