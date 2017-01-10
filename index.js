@@ -1,4 +1,7 @@
 module.exports = function readBody (req) {
+  if (typeof req !== 'object' || typeof req.on !== 'function') {
+    throw new TypeError(`expected an instance of stream.Readable, got ${typeof req} instead`);
+  }
   return new Promise((resolve, reject) => {
     let body = '';
 
